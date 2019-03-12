@@ -1,0 +1,270 @@
+/*Athor Info
+
+Name:Hr.nusrat
+Email:hr.nusrat@gmail.com*/
+
+
+/*
+
+
+=========index======
+
+1.Global css
+2.header section
+3.hero section
+4.Facilisis-sec
+5.Antedonec-sec
+6.Blanditrhoncus-sec
+7.Placerat-sec
+8.foot-sec
+
+=====================
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
+section{
+	padding: 50px 0px;}
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*header section*/
+
+.bg-dark {
+    background-color: #edeff1!important;
+    padding: 25px 20px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #31353e;
+    padding-left: 20px;
+
+}
+
+.nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    background: #dd4b2b;
+    border-radius: 30px;
+    padding: 10px 10px;
+}
+
+
+/*hero section*/
+
+
+ .hero{
+	background: url(../img/Panake-bg.png);
+	background-size: cover;
+}
+
+ .hero-top{
+ 	text-align: center;
+ 	color: #fff;
+ 	padding-top: 400px;
+ }
+ .hero-top h1{
+ 	font: 60px;
+ }
+
+
+ .hero-top .btn-custom{
+ 	background: #fff;
+ 	color:#612316;
+ 	padding: 5px 22px;
+ 	margin: 40px auto;
+ 	border-radius: 15px;
+ }
+ /*hero section end*/
+
+ /*Facilisis-sec*/
+
+ .Facilisis-sec{
+ 	background: #edeff1;
+ 	
+ }
+ .Facilisis-sec h2{
+ 	text-align: center;
+ 	margin-top: 30px;
+ 	margin-bottom: 50px;
+ 	font-size: 30px;
+
+ }
+
+ .Facilisis-news{
+ 	text-align: center;
+ 	margin-right: -58px;
+ 	
+ }
+
+ .Facilisis-news h3{
+ 	font-size: 24px;
+ 	margin-top: 20px;
+
+ }
+ .Facilisis-news .btn-custom{
+ 	background: #fff;
+ 	color:#95979b;
+ 	padding: 13px 50px;
+ 	margin: 5px auto;
+ 	border-radius: 25px;
+ 	-webkit-transition: 0.5s ease;
+ 	-moz-transition: 0.5s ease;
+ 	-o-transition: 0.5s ease;
+ }
+
+.Facilisis-news .btn-custom:hover{
+ 	background-color: #b59892;
+	color: #fff; }
+ /*Facilisis-sec end*/
+
+
+/*Antedonec-sec*/
+
+.Antedonec-sec{
+	background: url(../img/last-bg.png);
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 66px 30px;
+
+ }
+
+ .form-control{
+ 	background: transparent;
+ 	border: 1px solid #fff;
+ 	border-radius: 16px;
+ 	position: relative;
+ 	width: 60%;
+ 	margin: 0px auto;
+
+ }
+ .sign-btn{
+ 	background-color: #fff;
+ 	color: #b59892;
+ 	border: 1px solid #fff;
+ 	padding: 5px 28px;
+ 	border-radius: 19px;
+ 	position: absolute;
+ 	top: 111px;
+ 	right: 118px;
+ 	-webkit-transition: 0.5s ease;
+ 	-moz-transition: 0.5s ease;
+ 	-o-transition: 0.5s ease;
+
+ }
+
+
+ .sign-btn:hover{
+ 	background-color: #b59892;
+	color: #fff; 
+}
+
+ input::placeholder{
+ 	color: #fff!important;
+ }
+
+
+/*Antedonec-sec end*/
+
+/*Blanditrhoncus-sec*/
+
+
+.Blanditrhoncus-sec{
+	color: #272836;
+	padding: 56px;
+
+}
+
+.Blanditrhoncus-pera .btn-1{
+	background: #dd4b2b;
+ 	color:#fff;
+ 	padding: 5px 50px;
+ 	margin: 5px auto;
+ 	border-radius: 25px;
+ 	-webkit-transition: 0.5s ease;
+ 	-moz-transition: 0.5s ease;
+ 	-o-transition: 0.5s ease;
+
+
+}
+
+.Blanditrhoncus-pera .btn-1:hover{
+	color: #dd4b2b;
+ 	background:#fff;
+}
+
+.Blanditrhoncus-pera .btn-2{
+	background: #4b4e73;
+ 	color:#fff;
+ 	padding: 5px 50px;
+ 	margin: 5px auto;
+ 	border-radius: 25px;
+ 	-webkit-transition: 0.5s ease;
+ 	-moz-transition: 0.5s ease;
+ 	-o-transition: 0.5s ease;
+}
+.Blanditrhoncus-pera .btn-2:hover{
+	color: #dd4b2b;
+ 	background:#fff;
+}
+
+/*Blanditrhoncus-sec end*/
+
+/*Placerat-sec*/
+
+ .Placerat-sec{
+ 	background-color: #d75d0e;
+ 	color: #fff;
+
+}
+ .Placerat-rat{
+ 	padding: 10px 20px;
+ 	text-align: center;
+
+ }
+  .Placerat-rat ul {
+  	list-style: none;
+  }
+/*Placerat-sec*/
+
+ /*foot-sec*/
+
+
+ .foot-sec{
+ 	background: url(../img/last-bg.png);
+ 	background-size: cover;
+ 	color: #fff;
+ 	text-align: center;
+ 	padding: 56px;
+ }
+ .foot-sec p{
+ 	margin-top: 20px;
+ }
+
+ /*foot-sec end*/
+
+
+ @media(min-width: 0px) and(max-width: 500px){
+ 	    .sign-btn{ top: 135px;
+    				right: 88px;}
+ 
+ }
+
+ @media(min-width: 501px) and(max-width: 767px){
+ 
+ }
+
+ @media(min-width: 768px) and(max-width: 1199px){
+ 
+ }
+
+ @media(min-width: 1200px){
+ 
+ }
+
